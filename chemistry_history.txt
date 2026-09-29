@@ -1,0 +1,24 @@
+
+--- Saved on 2026-09-28 23:47:43 ---
+
+=== RESULTS FOR GLUCOSE ===
+Total Molar Mass: 180.156 g/mol
+Percentage Composition:
+  - Carbon (C): 40.00%
+  - Hydrogen (H): 6.71%
+  - Oxygen (O): 53.28%
+
+
+--- Saved on 2026-09-28 23:56:19 ---
+
+=== RESULTS FOR  ===
+Total Molar Mass: 16.043 g/mol
+Percentage Composition:
+  - Carbon (C): 74.87%
+  - Hydrogen (H): 25.13%
+
+Molecule: Calcium Hydroxide | Mass: 74.09 g/mol
+Molecule: Sodium Hydroxide | Mass: 40.00 g/mol
+Molecule: sulphur dioxide | Mass: 128.12 g/mol
+Molecule: SO2 | Mass: 64.06 g/mol
+Molecule: H2SO4 | Mass: 98.07 g/mol
