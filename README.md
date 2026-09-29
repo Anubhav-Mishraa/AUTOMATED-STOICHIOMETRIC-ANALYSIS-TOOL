@@ -1,35 +1,34 @@
-# Automated Stoichiometric Analysis Tool
+# AUTOMATED STOICHIOMETRY ANALYSIS TOOL
 
-## Overview of the Project
-The Automated Stoichiometric Analysis Tool is a command-line utility built to assist in computational chemistry. It allows users to dynamically build molecule objects, compute accurate molar masses based on an isolated atomic database, and automatically balance 3-compound chemical equations using an iterative verification algorithm.
+## Description of the Project
+Automated Stoichiometric Analysis Tool is a command-line tool designed to help you in computational chemistry by allowing you to
+build molecules interactively, calculate an exact molar mass of a compound using an isolated database, and balance 3-compound equations using an iterative verification algorithm.
 
-## Features
-* **Modular Molecular Building:** Interactively construct complex molecules element by element.
-* **Molar Mass Computation:** Instantly calculates total molecular weight (g/mol) using standard atomic masses.
-* **Automated Equation Balancer:** Uses a brute-force iterative algorithm to balance synthesis (2 reactants → 1 product) and decomposition (1 reactant → 2 products) reactions.
-* **Data Persistence:** Automatically saves successful calculations to a local text file (`chemistry_history.txt`) for later review.
+## Features of the Project
+Build molecules element by element in a modular fashion. Compute the exact molecular mass of desired compound. Auto-balance synthesis (2 reactants -> 1 product) and decomposition (1 reactant -> 2 products) chemical equations using a brute-force iterative algorithm. Store the working calculations in history.
 
 ## Technologies/Tools Used
-* **Language:** Python 3.x
-* **Architecture:** Object-Oriented Programming (OOP)
-* **Storage:** JSON (for the periodic table database) and standard File I/O (for calculation history).
-* **Dependencies:** None. Built entirely using Python's standard library.
+Python3, Object-oriented Programming paradigm, JSON, File I/O
 
-## Steps to Install & Run the Project
-1. Clone the repository to your local machine:
-   `git clone https://github.com/Anubhav-Mishraa/AUTOMATED-STOICHIOMETRIC-ANALYSIS-TOOL`
-2. Navigate into the project directory:
-   `cd AUTOMATED-STOICHIOMETRIC-ANALYSIS-TOOL`
-3. Execute the program via the terminal:
-   `python main.py` *(Note: Use `python3 main.py` on Mac/Linux or if specifically configured on Windows)*.
+## How to Set Up the Project
+Install dependencies (if any): `pip install -r requirements.txt`
+Clone this repository to a folder on your local machine : `git clone https://github.com/Anubhav-Mishraa/AUTOMATED-STOICHIOMETRIC-ANALYSIS-TOOL`
+Open folder in terminal and activate venv : `cd AUTOMATED-STOICHIOMETRIC-ANALYSIS-TOOL`
+Finally, run the program using the following command
+```bash
+python main.py
+```
+Note: If you are on a Mac or a Linux system, or if you have python3 installed on windows, use `python3 main.py` instead.
+## How to Test the Project
 
-## Instructions for Testing
-To verify the system is working correctly, run the application and select **Option 2** (Auto-Balance 3-Compound Equation) from the main menu. 
-1. Choose **A** for Synthesis.
-2. **Reactant 1:** Type `H`, press enter, type `2`, press enter. Type `done`.
-3. **Reactant 2:** Type `O`, press enter, type `2`, press enter. Type `done`.
-4. **Product 1:** Type `H`, press enter, type `2`, press enter. Type `O`, press enter, type `1`, press enter. Type `done`.
-5. The system should successfully output: `2 H + 1 O -> 2 Water`.
+Run the program and go to the Auto-Balance 3-Compound Equation menu by selecting option 2, and then select option A for synthesis
+Type out the elements and their stoichiometric coefficient for Reactant 1, hit enter after each
+Type `done` when you are finished with Reactant 1. You can also type out the elements and their stoichiometric coefficient for Reactant 2, and then hit enter after each
+Type `done` when you are finished with Reactant 2. Finally, type out the elements and their stoichiometric coefficient for Product 1, and then hit enter after each. The program should give you the following output `2 H + 1 O -> 2 Water`
+1. Run the program
+2. Select option 2 to go to the Auto-Balance 3-Compound Equation menu
+3. Select option A for synthesis
+4. For Reactant 1, type `H` and hit enter, then type `2` and hit enter. Then type `done`.
+5. For Reactant 2, type `O` and hit enter, then type `2` and hit enter. Then type `done`.
+6. For Product 1, type `H` and hit enter, then type `2` and hit enter. Then type `O` and hit enter, then type `1` and hit enter. Then type `done`.
 
-## Screenshots
-*(Note for submission: Take 1-2 screenshots of your VS Code terminal running the successful test above, save them in your repository, and add the image links here).*
