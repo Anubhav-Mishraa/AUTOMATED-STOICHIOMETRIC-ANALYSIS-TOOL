@@ -17,9 +17,9 @@ The Automated Stoichiometric Analysis Tool is a command-line utility built to as
 
 ## Steps to Install & Run the Project
 1. Clone the repository to your local machine:
-   `git clone https://github.com/your-username/chemistry-project.git`
+   `git clone https://github.com/Anubhav-Mishraa/AUTOMATED-STOICHIOMETRIC-ANALYSIS-TOOL`
 2. Navigate into the project directory:
-   `cd chemistry-project`
+   `cd AUTOMATED-STOICHIOMETRIC-ANALYSIS-TOOL`
 3. Execute the program via the terminal:
    `python main.py` *(Note: Use `python3 main.py` on Mac/Linux or if specifically configured on Windows)*.
 
